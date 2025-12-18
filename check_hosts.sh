@@ -17,3 +17,4 @@ cat /etc/hosts | while read ip name alias; do
 
 	validate_ip "$name" "$ip" "8.8.8.8"
 done
+echo "Modificat de studenta Maria"
